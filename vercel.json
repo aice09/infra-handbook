@@ -1,8 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "installCommand": "python -m pip install -r requirements.txt",
-  "buildCommand": "sphinx-build -W --keep-going -b html docs public",
+  "installCommand": "python -m venv .venv && .venv/bin/python -m pip install -r requirements.txt",
+  "buildCommand": ".venv/bin/sphinx-build -W --keep-going -b html docs public",
   "outputDirectory": "public",
   "trailingSlash": false,
   "routes": [
