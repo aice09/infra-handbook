@@ -14,7 +14,7 @@ source_suffix = {
 
 html_theme = "sphinx_rtd_theme"
 html_js_files = [
-    "/_vercel/speed-insights/script.js",
+    ("/_vercel/speed-insights/script.js", {"defer": "defer"}),
 ]
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
