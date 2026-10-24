@@ -9,6 +9,7 @@ Documenting the journey from physical hardware to SaaS.
 :caption: Handbook sections
 
 staging
+deployment/readthedocs-vercel
 architecture/index
 foundation/index
 networking/index
