@@ -8,6 +8,7 @@ Documenting the journey from physical hardware to SaaS.
 :maxdepth: 2
 :caption: Handbook sections
 
+staging
 architecture/index
 foundation/index
 networking/index
