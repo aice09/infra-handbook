@@ -1,6 +1,8 @@
 project = "Infrastructure Engineering Handbook"
-author = "Infrastructure Engineering"
+author = "Carl Angelo Nievarez"
 release = "0.1.0"
+year = 2026
+copyright = f"{year}, {author}"
 
 extensions = ["myst_parser"]
 
