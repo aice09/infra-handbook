@@ -8,6 +8,8 @@ Documenting the journey from physical hardware to SaaS.
 :maxdepth: 2
 :caption: Handbook sections
 
+staging
+deployment/readthedocs-vercel
 architecture/index
 foundation/index
 networking/index
